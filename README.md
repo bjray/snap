@@ -92,7 +92,7 @@ Snap does not have external dependencies since it is compiled into a statically 
 
 ### Installation
 
-You can obtain Linux RPM/Deb packages from [Snap's packagecloud.io respository](https://packagecloud.io/intelsdi-x/snap). Snap binaries in `.tar.gz` bundles and MacOS `.pkg` installer are available at Snap's [GitHub release page](https://github.com/intelsdi-x/snap/releases).
+You can obtain Linux RPM/Deb packages from [Snap's packagecloud.io repository](https://packagecloud.io/intelsdi-x/snap). Snap binaries in `.tar.gz` bundles and MacOS `.pkg` installer are available at Snap's [GitHub release page](https://github.com/intelsdi-x/snap/releases).
 
 RedHat 6/7:
 ```
@@ -165,7 +165,7 @@ To view the service logs:
 $ tail -f /var/log/snap/snapd.log
 ```
 
-By default Snap daemon will be running in standalone mode and listening on port 8181. To enable gossip mode, checkout the [tribe documentation](docs/TRIBE.md). For additional configuration options such as plugin signing and port configuration see [snapd documentation](docs/SNAPD.md).
+By default, Snap daemon will be running in standalone mode and listening on port 8181. To enable gossip mode, checkout the [tribe documentation](docs/TRIBE.md). For additional configuration options such as plugin signing and port configuration see [snapd documentation](docs/SNAPD.md).
 
 
 ### Load Plugins
@@ -311,7 +311,7 @@ We have a few known features we want to take on from here while we remain open f
 
 * Authentication, authorization, and auditing (see issue [#286](https://github.com/intelsdi-x/snap/issues/286))
 * Windows support (see [#671](https://github.com/intelsdi-x/snap/issues/671))
-* Enhacements to Tribe (see [#640](https://github.com/intelsdi-x/snap/issues/640))
+* Enhancements to Tribe (see [#640](https://github.com/intelsdi-x/snap/issues/640))
 
 If you would like to propose a feature, please [open an Issue](https://github.com/intelsdi-x/snap/issues)) that includes RFC in it (for [request for comments](https://en.wikipedia.org/wiki/Request_for_Comments)).
 
@@ -339,6 +339,13 @@ The power of Snap comes from its open architecture. Add to the ecosystem by buil
 * The definitive how-to is in [PLUGIN_AUTHORING.md](docs/PLUGIN_AUTHORING.md)
 * Recommendations to make effective, well-designed plugins are in [PLUGIN_BEST_PRACTICES.md](docs/PLUGIN_BEST_PRACTICES.md)
 
+### Become a Maintainer
+As a maintainer of Snap you will have a higher level of involvement in contribution, effort, commitment, and reward. The team of maintainers are expected to have a solid understanding of Snap and are here to help guide Snap, the plugins, and the community forward in a positive direction. All contributors to Snap are expected to be helpful and encouraging to all members of the community, treating everyone with a high level of professionalism and respect. See our [code of conduct](InsertLink) for more details.
+
+Maintainers of Snap and the Intel created plugins are selected based on contributions to the project and recommendations from other maintainers. Review [Responsibilities of a Maintainer](InsertLink) to see if you are ready to become a maintainer. 
+* The definitive how-to is in [PLUGIN_AUTHORING.md](docs/PLUGIN_AUTHORING.md)
+* Recommendations to make effective, well-designed plugins are in [PLUGIN_BEST_PRACTICES.md](docs/PLUGIN_BEST_PRACTICES.md)
+
 ## Security Disclosure
 
 The Snap team take security very seriously. If you have any issue regarding security, please notify us by sending an email to snap-security@intel.com
@@ -352,10 +359,22 @@ Snap is Open Source software released under the [Apache 2.0 License](LICENSE).
 All contributors are equally important to us, but we would like to thank the [initial authors](AUTHORS.md#initial-authors) for helping make open sourcing snap possible.
 
 ### Maintainers
-Amongst the many awesome contributors, there are the maintainers. These maintainers may change over time, but they are all members of the **@intelsdi-x/snap-maintainers** team. This group will help you by:
-* Committing to reviewing pull requests, issues, and addressing comments/questions as quickly as possible
-* Acting as a point of contact for questions
+Amongst the many awesome contributors, there are the maintainers. These maintainers may change over time, but they are all members of the **@intelsdi-x/snap-maintainers** team. See the full list of active maintainers [here](https://github.com/orgs/intelsdi-x/teams/snap-maintainers).
 
+This group will help you by fulfilling their responsibilities as outlined below and,
+* Committing to reviewing pull requests, issues, and addressing comments/questions as quickly as possible
+* Acting as a point of contact for questions 
+
+**Responsibilities of a Maintainer**
+
+Contribute regularly in at least one of the following capacities:
+* Direction/Design: Meaningfully contributing to RFC or design comments
+* Code Contributions: Submitting pull requests for either bug fixes or features
+* Support: Active participation in a support role in some form (code reviews, addressing questions, triaging issues)
+
+If a maintainer is consistently unable to perform the above actions they will be asked to withdraw from the maintainer group. This does not preclude them from becoming a maintainer at a later date.
+
+## Contact Us 
 Just tag **@intelsdi-x/snap-maintainers** if you need to get some attention on an issue. If at any time, you don't get a quick enough response, reach out to us [on Slack](http://slack.snap-telemetry.io)
 
 ## Thank You
