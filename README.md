@@ -36,21 +36,21 @@ limitations under the License.
   * [Running Tasks](#running-tasks)
   * [Building Tasks](#building-tasks)
   * [Plugin Catalog](#plugin-catalog)
-2. [Documentation](#documentation)
+3. [Documentation](#documentation)
   * [Examples](#examples)
   * [Roadmap](#roadmap)
-3. [Community Support](#community-support)
-4. [Contributing](#contributing)
+4. [Community Support](#community-support)
+5. [Contributing](#contributing)
   * [Author a Plugin](#author-a-plugin)
-5. [Security Disclosure](#security-disclosure)
-6. [License](#license)
-7. [Contributors](#contributors)
+6. [Code of Conduct](#code-of-conduct)
+7. [Security Disclosure](#security-disclosure)
+8. [License](#license)
+9. [Contributors](#contributors)
   * [Initial Authors](#initial-authors)
   * [Maintainers](#maintainers)
-8. [Thank You](#thank-you)
+10. [Thank You](#thank-you)
 
 ## Overview
-
 ![workflow-collect-process-publish](https://cloud.githubusercontent.com/assets/1744971/14644683/be49a6b6-0607-11e6-8621-14f7b54e2192.png)
 
 **Snap** is an open telemetry framework designed to simplify the collection, processing and publishing of system data through a single API. The goals of this project are to:
@@ -340,11 +340,12 @@ The power of Snap comes from its open architecture. Add to the ecosystem by buil
 * Recommendations to make effective, well-designed plugins are in [PLUGIN_BEST_PRACTICES.md](docs/PLUGIN_BEST_PRACTICES.md)
 
 ### Become a Maintainer
-As a maintainer of Snap you will have a higher level of involvement in contribution, effort, commitment, and reward. The team of maintainers are expected to have a solid understanding of Snap and are here to help guide Snap, the plugins, and the community forward in a positive direction. All contributors to Snap are expected to be helpful and encouraging to all members of the community, treating everyone with a high level of professionalism and respect. See our [code of conduct](InsertLink) for more details.
+With higher commitment comes higher rewards. Snap maintainers are here to help guide Snap, the plugins, and the community forward in a positive direction. 
 
 Maintainers of Snap and the Intel created plugins are selected based on contributions to the project and recommendations from other maintainers. Review [Responsibilities of a Maintainer](InsertLink) to see if you are ready to become a maintainer. 
-* The definitive how-to is in [PLUGIN_AUTHORING.md](docs/PLUGIN_AUTHORING.md)
-* Recommendations to make effective, well-designed plugins are in [PLUGIN_BEST_PRACTICES.md](docs/PLUGIN_BEST_PRACTICES.md)
+
+## Code of Conduct
+All contributors to Snap are expected to be helpful and encouraging to all members of the community, treating everyone with a high level of professionalism and respect. See our [code of conduct](InsertLink) for more details.
 
 ## Security Disclosure
 
@@ -359,23 +360,16 @@ Snap is Open Source software released under the [Apache 2.0 License](LICENSE).
 All contributors are equally important to us, but we would like to thank the [initial authors](AUTHORS.md#initial-authors) for helping make open sourcing snap possible.
 
 ### Maintainers
-Amongst the many awesome contributors, there are the maintainers. These maintainers may change over time, but they are all members of the **@intelsdi-x/snap-maintainers** team. See the full list of active maintainers [here](https://github.com/orgs/intelsdi-x/teams/snap-maintainers).
+Among the many awesome contributors, there are the maintainers. These maintainers may change over time, but they are all members of the **@intelsdi-x/snap-maintainers** team. See the full list of active maintainers [here](https://github.com/orgs/intelsdi-x/teams/snap-maintainers).
 
-This group will help you by fulfilling their responsibilities as outlined below and,
-* Committing to reviewing pull requests, issues, and addressing comments/questions as quickly as possible
-* Acting as a point of contact for questions 
-
-**Responsibilities of a Maintainer**
-
-Contribute regularly in at least one of the following capacities:
+Maintainers contribute regularly in at least one of the following capacities:
 * Direction/Design: Meaningfully contributing to RFC or design comments
 * Code Contributions: Submitting pull requests for either bug fixes or features
 * Support: Active participation in a support role in some form (code reviews, addressing questions, triaging issues)
 
-If a maintainer is consistently unable to perform the above actions they will be asked to withdraw from the maintainer group. This does not preclude them from becoming a maintainer at a later date.
+Maintainers aim to address comments and questions as quickly as possible. To get some attention on an issue just tag **@intelsdi-x/snap-maintainers**. If at any time, you don't get a quick enough response, reach out to us [on Slack](http://slack.snap-telemetry.io)
 
-## Contact Us 
-Just tag **@intelsdi-x/snap-maintainers** if you need to get some attention on an issue. If at any time, you don't get a quick enough response, reach out to us [on Slack](http://slack.snap-telemetry.io)
+If a maintainer is consistently unable to perform the above actions they will be asked to withdraw from the maintainer group. This does not preclude them from becoming a maintainer at a later date.
 
 ## Thank You
 And **thank you!** Your contribution, through code and participation, is incredibly important to us.
