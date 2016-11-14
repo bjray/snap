@@ -331,7 +331,7 @@ We encourage contributions from the community. No improvement is too small. Snap
 * _Contributors_: We can always use more eyes on the core framework and its testing
 * _Integrations_: Snap can collect from and publish to almost anything by [authoring a plugin](#author-a-plugin)
 
-To contribute to the Snap framework, see [our CONTRIBUTING file](CONTRIBUTING.md). To give back to a specific plugin, open an issue on its repository.
+To contribute to the Snap framework, see our [CONTRIBUTING.md](CONTRIBUTING.md) file. To give back to a specific plugin, open an issue on its repository. Snap maintainers aim to address comments and questions as quickly as possible. To get some attention on an issue just tag **@intelsdi-x/snap-maintainers**. If at any time, you don't get a quick enough response, reach out to us [on Slack](http://slack.snap-telemetry.io)
 
 ### Author a Plugin
 The power of Snap comes from its open architecture. Add to the ecosystem by building your own plugins to collect, process or publish telemetry.
@@ -340,36 +340,20 @@ The power of Snap comes from its open architecture. Add to the ecosystem by buil
 * Recommendations to make effective, well-designed plugins are in [PLUGIN_BEST_PRACTICES.md](docs/PLUGIN_BEST_PRACTICES.md)
 
 ### Become a Maintainer
-With higher commitment comes higher rewards. Snap maintainers are here to help guide Snap, the plugins, and the community forward in a positive direction. 
+Snap maintainers are here to help guide Snap, the plugins, and the community forward in a positive direction. Think you're ready to be a maintainer? Check out [Responsibilities of a Maintainer](docs/MAINTAINERS.md#responsibilities-of-maintainers) and open an issue requesting to be added to the [Maintainers list](docs/MAINTAINERS.md). 
 
-Maintainers of Snap and the Intel created plugins are selected based on contributions to the project and recommendations from other maintainers. Review [Responsibilities of a Maintainer](InsertLink) to see if you are ready to become a maintainer. 
+Maintainers of Snap and the Intel created plugins are selected based on contributions to the project and recommendations from other maintainers. The full list of active maintainers can be found [here](docs/MAINTAINERS.md).
 
 ## Code of Conduct
 All contributors to Snap are expected to be helpful and encouraging to all members of the community, treating everyone with a high level of professionalism and respect. See our [code of conduct](InsertLink) for more details.
 
 ## Security Disclosure
 
-The Snap team take security very seriously. If you have any issue regarding security, please notify us by sending an email to snap-security@intel.com
+The Snap team takes security very seriously. If you have any issue regarding security, please notify us by sending an email to snap-security@intel.com
 and not by creating a GitHub issue. We will follow up with you promptly with more information and a plan for remediation.
 
 ## License
 Snap is Open Source software released under the [Apache 2.0 License](LICENSE).
-
-## Contributors
-### Initial Authors
-All contributors are equally important to us, but we would like to thank the [initial authors](AUTHORS.md#initial-authors) for helping make open sourcing snap possible.
-
-### Maintainers
-Among the many awesome contributors, there are the maintainers. These maintainers may change over time, but they are all members of the **@intelsdi-x/snap-maintainers** team. See the full list of active maintainers [here](https://github.com/orgs/intelsdi-x/teams/snap-maintainers).
-
-Maintainers contribute regularly in at least one of the following capacities:
-* Direction/Design: Meaningfully contributing to RFC or design comments
-* Code Contributions: Submitting pull requests for either bug fixes or features
-* Support: Active participation in a support role in some form (code reviews, addressing questions, triaging issues)
-
-Maintainers aim to address comments and questions as quickly as possible. To get some attention on an issue just tag **@intelsdi-x/snap-maintainers**. If at any time, you don't get a quick enough response, reach out to us [on Slack](http://slack.snap-telemetry.io)
-
-If a maintainer is consistently unable to perform the above actions they will be asked to withdraw from the maintainer group. This does not preclude them from becoming a maintainer at a later date.
 
 ## Thank You
 And **thank you!** Your contribution, through code and participation, is incredibly important to us.
