@@ -12,6 +12,7 @@
     * [Plugin Version](#plugin-version)
     * [Plugin Release](#plugin-release)
     * [Plugin Metadata](#plugin-metadata)
+    * [Plugin Status](#plugin-status)
     * [Documentation](#documentation)
 
 ## Overview
@@ -125,7 +126,7 @@ In the plugin repo root directory, the `metadata.yml` file provides Snap project
 * **description**: paragraph describing the plugin's purpose
 * **badge**: a list of [badges](https://shields.io/) to display
 * **ci**: a list of ci services running for this repo
-* **status**: one of the three statuses [described below](#plugin-status)
+* **status**: one of the four statuses [described below](#plugin-status)
 
 All metadata fields are optional, but recommended to help users discover your plugin. Please check out the file plugin's [metadata.yml](https://github.com/intelsdi-x/snap-plugin-publisher-file/blob/master/metadata.yml) file for a working example.
 
@@ -133,11 +134,11 @@ We recommend sharing your plugins early and often by adding them to the list of 
 
 ### Plugin Status
 
-While the Snap framework is hardened through tons of testing, **plugins mature at their own pace**. We want our community to share plugins early and update them often. We are defining categories of maturity of a plugin and will roll them out with the resolution of [#1322](https://github.com/intelsdi-x/snap/issues/1322).
+While the Snap framework is hardened through tons of testing, **plugins mature at their own pace**. We want our community to share plugins early and update them often. We have tiers of maturity defined for plugins being added to the Plugin Catalog. Their definitions are available in [Plugin Status](PLUGIN_STATUS.md).
 
 ### Documentation
 
-All plugins should include a README with the following information:
+We request that all plugins include a README with the following information:
 
 1. Supported Platforms
 1. Known Issues

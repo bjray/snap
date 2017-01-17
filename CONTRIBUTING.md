@@ -9,6 +9,7 @@ Snap is Apache 2.0 licensed and accepts contributions via GitHub. This document 
 * [Reporting Security Issues](#reporting-security-issues)
 * [Reporting Issues or Feature Requests](#reporting-issues-or-feature-requests)
 * [Contributing Code](#contributing-code)
+* [Submitted a Plugin](#submitting-a-plugin)
 * [Notes on GitHub Usage](#notes-on-github-usage)
 
 ## Reporting Security Issues
@@ -82,10 +83,18 @@ Your pull request should be rebased against the current master branch. Please do
 the current master branch in with your topic branch, nor use the Update Branch button provided
 by GitHub on the pull request page.
 
+## Submitting a Plugin
+
+Sharing a new plugin is one of the most impressive ways to jump into the Snap community as a contributor. This process is as simple as adding your plugin information to the [list in plugis.yml](docs/plugin.yml).
+
+All plugins mature at their own pace and have varying levels of support from maintainers. Each status and its corresponding requirements are available in the [Plugin Status documentation](docs/PLUGIN_STATUS.md).
+
 ## Notes on GitHub Usage
+
 It's worth noting that we don't use all the native GitHub features for issue management. For instance, it's uncommon for us to assign issues to the developer who will address it. Here are notes on what we do use.
 
 ### TL;DR Labels
+
 We use a number of labels for context in the main framework of Snap. Plugin repository labels will keep it simple. If you want to contribute to Snap, here are the most helpful ones for you:
 
 1. **help-wanted** ([link](https://github.com/intelsdi-x/snap/labels/help-wanted)) - some specific issues maintainers would like help addressing
@@ -93,6 +102,7 @@ We use a number of labels for context in the main framework of Snap. Plugin repo
 3. **plugin-wishlist** ([link](https://github.com/intelsdi-x/snap/labels/plugin-wishlist)) - these are a great opportunity to write a plugin
 
 ### Issue Labels
+
 Snap maintainers have a set of labels we use to keep up with issues. They are separated into namespaces:
 
 * **type/** - the category of issue. All issues will have one or more
